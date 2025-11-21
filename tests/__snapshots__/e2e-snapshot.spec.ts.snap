@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`E2E Snapshot Both frameworks compatibility should work with both Express and NestJS using same function: compat-express 1`] = `
+{
+  "email": "john@example.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`E2E Snapshot Both frameworks compatibility should work with both Express and NestJS using same function: compat-nestjs 1`] = `
+{
+  "email": "john@example.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`E2E Snapshot Express App should handle error status codes: express-error 1`] = `
+{
+  "error": "Not found",
+}
+`;
+
+exports[`E2E Snapshot Express App should snapshot GET all endpoint: express-get-all-users 1`] = `
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+  },
+]
+`;
+
+exports[`E2E Snapshot Express App should snapshot GET endpoint: express-get-user 1`] = `
+{
+  "email": "john@example.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`E2E Snapshot Express App should snapshot POST endpoint: express-create-user 1`] = `
+{
+  "email": "jane@example.com",
+  "id": "3",
+  "name": "Jane",
+}
+`;
+
+exports[`E2E Snapshot Express App should snapshot multiple endpoints: express-multi-1 1`] = `
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+  },
+]
+`;
+
+exports[`E2E Snapshot Express App should snapshot multiple endpoints: express-multi-2 1`] = `
+{
+  "email": "john@example.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`E2E Snapshot NestJS App should handle query parameters: nestjs-query-params 1`] = `
+{
+  "query": "test",
+  "results": [],
+}
+`;
+
+exports[`E2E Snapshot NestJS App should snapshot GET all endpoint: nestjs-get-all-users 1`] = `
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+  },
+]
+`;
+
+exports[`E2E Snapshot NestJS App should snapshot GET endpoint: nestjs-get-user 1`] = `
+{
+  "email": "john@example.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`E2E Snapshot NestJS App should snapshot POST endpoint: nestjs-create-user 1`] = `
+{
+  "email": "jane@example.com",
+  "id": "3",
+  "name": "Jane",
+}
+`;
+
+exports[`E2E Snapshot NestJS App should snapshot full response: nestjs-full-response 1`] = `
+{
+  "body": {
+    "email": "john@example.com",
+    "id": "1",
+    "name": "John Doe",
+  },
+  "headers": {
+    "connection": "close",
+    "content-length": "55",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 21 Nov 2025 23:00:27 GMT",
+    "etag": "W/"37-VBDglBd3AR4VR99LSOFFWuCRaPY"",
+    "x-powered-by": "Express",
+  },
+  "status": 200,
+}
+`;
+
+exports[`E2E Snapshot NestJS App should snapshot multiple endpoints: nestjs-multi-1 1`] = `
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+  },
+]
+`;
+
+exports[`E2E Snapshot NestJS App should snapshot multiple endpoints: nestjs-multi-2 1`] = `
+{
+  "email": "john@example.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`nest-test-utils Examples Complete Integration Example should handle complete user flow: create-user-integration 1`] = `
+{
+  "age": 55,
+  "createdAt": "2025-03-11T22:46:57.619Z",
+  "email": "Anais_Lemke@hotmail.com",
+  "id": "52362fe7-eea9-4948-a345-75c4796e3a1f",
+  "name": "Harold Stanton",
+}
+`;
+
+exports[`nest-test-utils Examples E2E Snapshot Testing should snapshot GET all endpoint: GET__users 1`] = `
+[
+  {
+    "age": 75,
+    "createdAt": "2025-05-28T18:40:55.608Z",
+    "email": "Brooklyn_Sauer@yahoo.com",
+    "id": "b296915d-9e8d-4840-9678-1b645929adb0",
+    "name": "Sophia Bauch",
+  },
+  {
+    "age": 54,
+    "createdAt": "2025-08-21T06:10:30.409Z",
+    "email": "Charity_Bins34@hotmail.com",
+    "id": "d2f0a7f5-1c21-422c-b9f6-67d4e48daf90",
+    "name": "Fred Murphy",
+  },
+]
+`;
+
+exports[`nest-test-utils Examples E2E Snapshot Testing should snapshot GET endpoint: get-user-by-id 1`] = `
+{
+  "age": 76,
+  "createdAt": "2025-10-21T04:19:02.799Z",
+  "email": "Yvonne97@yahoo.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`nest-test-utils Examples E2E Snapshot Testing should snapshot POST endpoint: create-user 1`] = `
+{
+  "age": 45,
+  "createdAt": "2024-12-08T08:50:48.986Z",
+  "email": "Sigurd57@yahoo.com",
+  "id": "c1fdf604-3f03-422e-a88c-578f6408ecda",
+  "name": "Lucille Turcotte",
+}
+`;
+
+exports[`nest-test-utils Examples E2E Snapshot Testing should snapshot multiple endpoints: get-all-users 1`] = `
+[
+  {
+    "age": 19,
+    "createdAt": "2024-12-17T03:09:15.410Z",
+    "email": "Okey41@yahoo.com",
+    "id": "ef88dde4-480a-44a7-9aac-6be2e53c591d",
+    "name": "Yolanda McLaughlin PhD",
+  },
+  {
+    "age": 69,
+    "createdAt": "2025-06-30T15:40:59.451Z",
+    "email": "Abe34@gmail.com",
+    "id": "37739fd6-9bea-42c0-a143-70905bb82b53",
+    "name": "Marshall Nikolaus",
+  },
+]
+`;
+
+exports[`nest-test-utils Examples E2E Snapshot Testing should snapshot multiple endpoints: get-user-1 1`] = `
+{
+  "age": 45,
+  "createdAt": "2025-03-14T15:33:45.238Z",
+  "email": "Dina_Roob88@hotmail.com",
+  "id": "1",
+  "name": "John Doe",
+}
+`;
