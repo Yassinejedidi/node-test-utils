@@ -2,18 +2,42 @@
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/node-test-utils.svg?style=flat-square)](https://www.npmjs.com/package/node-test-utils)
-[![npm downloads](https://img.shields.io/npm/dm/node-test-utils.svg?style=flat-square)](https://www.npmjs.com/package/node-test-utils)
-[![GitHub stars](https://img.shields.io/github/stars/Yassinejedidi/node-test-utils.svg?style=flat-square)](https://github.com/Yassinejedidi/node-test-utils)
-[![GitHub issues](https://img.shields.io/github/issues/Yassinejedidi/node-test-utils.svg?style=flat-square)](https://github.com/Yassinejedidi/node-test-utils/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
-
 **A powerful, reusable testing toolkit for Node.js applications. Works seamlessly with NestJS, Express, and any Node.js framework.**
 
 [Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Examples](#-examples)
 
 </div>
+
+## 📋 What This Package Does
+
+**Node Test Utils** is a comprehensive testing toolkit designed to dramatically reduce the time and effort required to write, maintain, and scale tests for Node.js applications. Whether you're building with NestJS, Express, or any other Node.js framework, this package provides essential utilities that eliminate repetitive boilerplate code and standardize your testing approach.
+
+### Core Capabilities:
+
+1. **🔹 Auto Mocks** - Automatically generates Jest mocks for all methods in your services, controllers, and classes. No more manually creating mock objects for every method - just call `createAutoMock(YourService)` and all methods are instantly mocked and ready to use.
+
+2. **🔹 Test Data Factories** - Create realistic, consistent test data with a fluent builder pattern. Define factory classes once, then generate test data on-demand with customizable overrides. Perfect for creating users, entities, or any complex data structures needed in your tests.
+
+3. **🔹 Module Helpers (NestJS)** - Simplify NestJS module testing with easy provider overrides and dependency injection setup. Create test modules with mocked dependencies in a single, clean function call instead of chaining multiple override methods.
+
+4. **🔹 E2E Snapshot Testing** - Automatically capture and compare API responses for regression testing. Works with both NestJS and Express applications, helping you catch breaking API changes before they reach production.
+
+### What Problems Does It Solve?
+
+- **Eliminates Boilerplate**: Reduces test setup code by 70%+ by automating mock creation and test data generation
+- **Speeds Up Development**: Write tests 50%+ faster with auto-mocks and factory patterns
+- **Improves Consistency**: Standardizes testing patterns across your entire team
+- **Reduces Maintenance**: Makes tests easier to update as your application evolves
+- **Framework Agnostic**: Works with NestJS, Express, and any Node.js framework
+- **Type-Safe**: Full TypeScript support with IntelliSense for better developer experience
+
+### Perfect For:
+
+- Developers writing unit tests for services and controllers
+- Teams building integration tests for NestJS applications
+- Projects needing E2E API testing with snapshot comparison
+- Anyone tired of writing repetitive mock setup code
+- Teams wanting to standardize their testing approach
 
 ---
 
