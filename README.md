@@ -4,6 +4,8 @@
 
 [![npm version](https://img.shields.io/npm/v/node-test-utils.svg?style=flat-square)](https://www.npmjs.com/package/node-test-utils)
 [![npm downloads](https://img.shields.io/npm/dm/node-test-utils.svg?style=flat-square)](https://www.npmjs.com/package/node-test-utils)
+[![GitHub stars](https://img.shields.io/github/stars/Yassinejedidi/node-test-utils.svg?style=flat-square)](https://github.com/Yassinejedidi/node-test-utils)
+[![GitHub issues](https://img.shields.io/github/issues/Yassinejedidi/node-test-utils.svg?style=flat-square)](https://github.com/Yassinejedidi/node-test-utils/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 
@@ -696,6 +698,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ by developers, for developers**
 
-[⭐ Star on GitHub](https://github.com/yourusername/node-test-utils) • [📦 View on npm](https://www.npmjs.com/package/node-test-utils) • [🐛 Report Bug](https://github.com/yourusername/node-test-utils/issues) • [💡 Request Feature](https://github.com/yourusername/node-test-utils/issues)
+[⭐ Star on GitHub](https://github.com/Yassinejedidi/node-test-utils) • [📦 View on npm](https://www.npmjs.com/package/node-test-utils) • [🐛 Report Bug](https://github.com/Yassinejedidi/node-test-utils/issues) • [💡 Request Feature](https://github.com/Yassinejedidi/node-test-utils/issues)
 
 </div>
